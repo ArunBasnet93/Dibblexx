@@ -1,1 +1,40 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
 
+.panel {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.panel:hover {
+  transform: scale(1.02);
+}
+
+#faith {
+  background-image: url('../images/faith.jpg');
+}
+
+#lifestyle {
+  background-image: url('../images/lifestyle.jpg');
+}
+
+#merchandise {
+  background-image: url('../images/merchandise.jpg');
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px black;
+}
